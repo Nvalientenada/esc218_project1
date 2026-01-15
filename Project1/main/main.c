@@ -2,7 +2,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#define LED_PIN GPIO_NUM_11   // use the LED pin that works on your board
+#define LED_PIN GPIO_NUM_11   
 
 void app_main(void) {
     gpio_reset_pin(LED_PIN);
